@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(131, 7, 7) 0%,blue ,black);
+}
+
+
+.grid-container{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item-header-padrao{
+    background: linear-gradient(130deg, rgb(128, 93, 160), rgb(128, 93, 160), rgb(0, 0, 0));
+    border-radius: 10px ;
+    padding: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-header-profissional{
+    background: linear-gradient(130deg, rgb(155, 153, 55), rgb(155, 153, 55), rgb(0, 0, 0));
+    border-radius: 10px ;
+    padding: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-header-extendida{
+    background: linear-gradient(130deg, rgb(207, 83, 33), rgb(207, 83, 33), rgb(0, 0, 0));
+    border-radius: 10px ;
+    padding: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-header-titulo{
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 10px; 
+}
+
+
+.grid-item-body{
+    background: rgba(255, 255, 255,0.4);
+    border-radius: 10px ;
+    padding: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.grid-item-body h6{
+    margin: 0 0 30px 0;
+}
+
+.grid-item-body-velocidade{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10x;
+    color: rgb(39, 170, 221);
+    margin-bottom: 20px;
+}
+
+.grid-item-body p{
+    font-size: 14px;
+}
+
+.grid-item-body-extra{
+    background: linear-gradient(40deg, rgb(207, 83, 33), rgb(207, 83, 33), rgb(0, 0, 0));
+    margin: 20px 0 20PX 0;
+}
+
+.grid-item-body-extra-opcoes{
+    padding-bottom: 30px;
+}
+
+.grid-item-body button{
+    position: relative;
+                top: auto;
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+    bottom: auto;
+}
+
+.grid-item-body button:hover{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1em gold;
+}
